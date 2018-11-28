@@ -1,0 +1,21 @@
+amqp:
+  broker:
+    host: localhost
+    port: 32771
+    username: guest
+    password: guest
+  exchange:
+    exchange1: exchange-1
+  queue:
+    somequeue: some.queue
+    somequeue2: some.queue2
+
+mqtt:
+  broker:
+    host: tcp://test.mosquitto.org
+    port: 1883
+    username:
+    password:
+  topic:
+    topic1: siSampleTopic
+    topic2: siSampleTopic2
